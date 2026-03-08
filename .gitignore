@@ -1,0 +1,32 @@
+# Ignore composer-managed directories and files.
+core/
+modules/
+sites/
+/vendor
+/keys
+/db-backup
+
+
+
+
+# Ignore config files that may contain sensitive information.
+#sites/*/settings*.php
+#sites/*/settings.local.php
+#sites/*/services.local.yml
+
+# Ignore paths that contain user-generated content.
+#sites/*/files
+#sites/*/private
+
+# Ignore CSS/JS aggregation
+#sites/*/files/css/
+#sites/*/files/js/
+#sites/*/files/php/
+#sites/*/files/styles/
+
+# Ignore IDE files
+.idea/
+.vscode/
+.DS_Store
+/.editorconfig
+/.gitattributes
