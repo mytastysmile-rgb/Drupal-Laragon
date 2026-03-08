@@ -1,4 +1,4 @@
-# Ignore composer-managed directories
+# Ignore composer-managed directories and files.
 core/
 modules/
 sites/
