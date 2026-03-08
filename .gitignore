@@ -3,6 +3,8 @@ core/
 modules/
 sites/
 /vendor
+/keys
+/db-backup
 
 
 
@@ -26,3 +28,5 @@ sites/
 .idea/
 .vscode/
 .DS_Store
+/.editorconfig
+/.gitattributes
